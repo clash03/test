@@ -1,0 +1,149 @@
+/* Edit untuk text h1 di header (bergabung dgn clas divheadprofil) */
+h1{
+    color: whitesmoke;
+    text-align: center;
+    position: static;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Edit untuk Header termasuk Text dan Border */
+.headprofil{
+    /* tinggi */
+    height: fit-content;
+    /* letak background gambar */
+    background-image: url(background.gif);
+    /* blh pilih size background */
+    background-size: cover;
+     /* kedudukan text */
+    text-align: center;
+    /* posisi background */
+    background-position: center;
+    /* posisi headprofil nak letak fixed, stiky, Dll */
+    position: fixed;
+    /*  */
+    box-sizing: border-box;
+    /* line atas border. Blh letak ketebalan dan warna */
+    border-top: 1px solid whitesmoke;
+    /* line kiri border. Blh letak ketebalan dan warna */
+    border-left: 1px solid whitesmoke;
+    /* bayang2 border */
+    box-shadow: 3px 3px 9px whitesmoke;
+    /*  */
+    padding: 10px;
+    /* lengkungan border. makin besar px makin melengkung */
+    border-radius: 10px;
+    /* jarak border dengan page atas */
+    top: 8%;
+    /* jarak border dgn page kiri */
+    left: 50%;
+    /*  */
+    transform: translate(-50%, -50%);
+    /* bayang2 text (rgb... = code warna) */
+    text-shadow: 3px 3px 9px rgb(53, 154, 227);
+
+
+}
+
+hr{
+    margin-left: 50%;
+    position: fixed;
+}
+
+/* edit untuk UL dan LI and border */
+.glassmorphism{
+    width: 50%;
+    height: 80%;
+    border-top: 1px solid rgb(42, 145, 214);
+    border-left: 1px solid rgb(42, 145, 214);
+    box-shadow: 3px 3px 9px rgb(42, 145, 214);
+    background: transparent;
+    border-radius: 15px;
+    backdrop-filter: blur(2px);
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "lucida Console";
+    
+}
+
+.container1{
+    color: black;
+    width: 50%;
+    height: fit-content;
+    border-top: 1px solid rgb(42, 145, 214);
+    border-left: 1px solid rgb(42, 145, 214);
+    box-shadow: 3px 3px 9px rgb(42, 145, 214);
+    background: transparent;
+    border-radius: 15px;
+    backdrop-filter: blur(2px);
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "lucida Console";
+    text-align: center;
+
+}
+
+
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+body{
+    width: fit-content;
+    height: fit-content;
+    background-image: url(background.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p{
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+embed{
+    height: 200px;
+    position: static;
+}
+
+div{
+    text-align: left;  
+}
+
+details{
+    color: white;
+}
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  color: rgb(39, 3, 241);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgb(36, 36, 36), 0 0 25px white, 0 0 5px white;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
